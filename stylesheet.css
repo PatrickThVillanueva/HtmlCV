@@ -161,20 +161,19 @@ p {
     width: 130px;
 }
 
-h6 {
+.col-md-8 h6 {
     margin-top: 0px;
     letter-spacing: 1px;
     font-size: 14px;
     font-weight: bold;
-
 }
 
-.compagny {
+.company {
     font-style: italic
 }
 
 .job {
-    margin-bottom: 15px;
+    margin-bottom: 15px;    
 }
 
 .space {
@@ -258,9 +257,9 @@ img {
     }
     
     .container {
-    padding-left: 0px!important;
-    padding-right: 0px!important;
-}
+        padding-left: 0px!important;
+        padding-right: 0px!important;
+    }
     
     a {
         text-decoration: none;
@@ -282,4 +281,9 @@ img {
 
 .side h5 {
     text-align: center;
+}
+
+.projects{
+    text-decoration: underline;
+    margin-top: 10px;
 }
