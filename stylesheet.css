@@ -141,7 +141,7 @@ p {
 .contain {
     padding: 20px;
     padding-bottom: 0px;
-
+    
 }
 
 .fatupper {
@@ -278,7 +278,7 @@ img {
 }
 
 #career {
-    font-size: 100%
+    font-size: 100%;
 }
 
 .side h5 {
@@ -295,3 +295,17 @@ ul.bragging li{
     list-style-type: disc;    
     font-size: 16px;
 }
+
+@media(min-width:320px) and (max-width:1024px){
+    .left2 {
+        text-align: left !important;
+    }
+    
+    .card__price {
+        text-align: right !important;
+    }
+    
+    .left2 {
+        text-align: left !important;
+    }
+} 
