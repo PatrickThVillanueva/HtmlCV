@@ -298,10 +298,13 @@ ul.sublang li{
     list-style-position: inside;
     list-style-type: none;
     font-size: 14px;
+    text-indent: 2px;
 }
 
 ul.sublang li:before{
     content: '✔';
+    margin-left: -1em;
+    margin-right: .100em;
 }
 
 @media(min-width:320px) and (max-width:1024px){
