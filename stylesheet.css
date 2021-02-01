@@ -294,6 +294,16 @@ ul.bragging li{
     font-size: 16px;
 }
 
+ul.sublang li{
+    list-style-position: outside;
+    list-style-type: none;
+    font-size: 14px;
+}
+
+ul.sublang li:before{
+    content: '✔';
+}
+
 @media(min-width:320px) and (max-width:1024px){
     .left2 {
         text-align: left !important;
