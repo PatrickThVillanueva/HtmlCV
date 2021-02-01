@@ -16,8 +16,8 @@ function toggleDarkLight() {
 }
 
 function startSetLight() {
-    document.getElementById("modalbutton").click();
-    const hours = new Date().getHours();
-    const isDayTime = hours > 6 && hours < 20;
-    if (!isDayTime) toggleDarkLight();
-}
+     document.getElementById("modalbutton");
+     const hours = new Date().getHours();
+     const isDayTime = hours > 6 && hours < 20;
+     if (!isDayTime) toggleDarkLight();
+ }
