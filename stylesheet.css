@@ -295,7 +295,7 @@ ul.bragging li{
 }
 
 ul.sublang li{
-    list-style-position: outside;
+    list-style-position: inside;
     list-style-type: none;
     font-size: 14px;
 }
